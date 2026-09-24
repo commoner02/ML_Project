@@ -1,0 +1,22 @@
+# Ignore large binary documents & presentations
+*.pdf
+*.pptx
+*.ppt
+*.docx
+
+# Python / Jupyter artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# System / Editor files
+.DS_Store
+*.bak
+.vscode/
